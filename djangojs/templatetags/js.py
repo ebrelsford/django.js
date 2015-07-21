@@ -4,7 +4,7 @@ Provide template tags to help with Javascript/Django integration.
 '''
 from __future__ import unicode_literals
 
-from django import template
+from django.template import base as template
 from django.contrib.staticfiles.storage import staticfiles_storage
 from django.utils import six
 
